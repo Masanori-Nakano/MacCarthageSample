@@ -1,0 +1,2 @@
+# 4.6を指定
+github "Alamofire/Alamofire" == 4.6
