@@ -16,6 +16,22 @@
         <customView id="c22-O7-iKe">
             <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="nVD-KO-8Na">
+                    <rect key="frame" x="200" y="118" width="81" height="32"/>
+                    <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="pN6-ju-0Oy">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="buttonDidPush:" target="-2" id="Hr8-Qc-j72"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="nVD-KO-8Na" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="A1v-eJ-z0M"/>
+                <constraint firstItem="nVD-KO-8Na" firstAttribute="centerY" secondItem="c22-O7-iKe" secondAttribute="centerY" id="lEb-qH-jy3"/>
+            </constraints>
         </customView>
     </objects>
 </document>
